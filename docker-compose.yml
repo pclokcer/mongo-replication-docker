@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+
+  mongodb:
+    hostname: mongodb
+    container_name: mongodb
+    image: mongo:4
+    command: mongod --replSet testreplica
+    environment:
+      MONGO_SU_USERNAME:
+      MONGO_USERNAME:
+      MONGO_DATABASE:
+      SECRET_NAME:
+      DEFAULT_DATA: 1
+    ports:
+      - 3000:27017
+  
+  mongoreplication:
+    hostname: mongoreplication
+    container_name: mongoreplication
+    image: mongo:4
+    command: mongod --replSet testreplica
+    environment:
+      MONGO_SU_USERNAME: 
+      MONGO_USERNAME: 
+      MONGO_DATABASE: 
+      SECRET_NAME: 
+      DEFAULT_DATA: 1
+    ports:
+      - 4000:27017

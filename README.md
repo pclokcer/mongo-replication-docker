@@ -16,6 +16,5 @@ Now, You have to run commands and you need to take response like below photo.
 rs.status()
 rs.initiate()
 rs.add("mongoreplication:27017")
-
 ````
 https://prnt.sc/16d2yfz

@@ -18,5 +18,4 @@ rs.initiate()
 rs.add("mongoreplication:27017")
 
 ````
-
-### <img src="https://prnt.sc/16d2yfz" width="50px">
+https://prnt.sc/16d2yfz

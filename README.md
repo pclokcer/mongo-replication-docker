@@ -17,4 +17,5 @@ rs.status()
 rs.initiate()
 rs.add("mongoreplication:27017")
 ````
-https://prnt.sc/16d2yfz
+
+<img src="https://image.prntscr.com/image/VAH0uYJbTfubCtGQfDQNWQ.png">
